@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "ab5c2bc4-b8f4-4f1f-88f0-46d950d0511f",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39694044",
+		"_collection_link": "https://school-management-api-6647.postman.co/workspace/school-management-api~325df778-e4dd-43c5-91f5-acaf94826fa4/collection/39694044-ab5c2bc4-b8f4-4f1f-88f0-46d950d0511f?action=share&source=collection_link&creator=39694044"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/addSchool",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Greenfield High\",\r\n  \"address\": \"12 Main Street\",\r\n  \"latitude\": 22.5726,\r\n  \"longitude\": 88.3639\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/addSchool",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"addSchool"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
